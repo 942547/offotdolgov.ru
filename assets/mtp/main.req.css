@@ -3151,7 +3151,7 @@ body{
 
 
 .bg-radial-grad-big{
-	background-image:url('./images/bg_gradient_big_block.jpg');
+	background-image:url('../images/bg_gradient_big_block.jpg');
 	background-position-x: center;
 	background-repeat: no-repeat;
 	background-size: cover;
