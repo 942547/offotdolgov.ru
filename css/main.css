@@ -1,0 +1,51 @@
+:root {
+  --border-radius_1: 2px;
+  --border-radius_2: 3px;
+  --border-radius_3: 4px;
+  --border-radius_4: 5px;
+  --border-radius_5: 10px;
+  --border-radius_6: 10px;
+  --border-radius_7: 15px;
+  --border-radius_8: 20px;
+  --border-radius_9: 25px;
+  --border-radius_10: 30px;
+  --border-radius_11: 50px;
+
+  --gray-1: #121212;
+  --gray-2: #4F4F4F;
+  --gray-3: #828282;
+  --gray-4: #BDBDBD;
+  --gray-5: #ECECEC;
+  --gray-6: #F7F7F7;
+  --gray-7: #E5E5E5;
+  --gray-body: #9D9D9D;
+  --accent-1: #0E0F11;
+  --red-2: #FDEEEF;
+  --accent-1_hover: #000;
+  --red-white: #E8515A;
+  --yellow-1: #0E0F11;
+  --yellow-2: #FEF7E3;
+  --yellow-3: #000;
+  --blue-1: #273EE3;
+  --blue-2: #EEF0FD;
+  --blue-3: #1D2EA6;
+  --green-1: #25D366;
+  --green-2: #21BE5C;
+
+  --linear-gradient_1: linear-gradient(270deg, #0E0F11, #000);
+  --linear-gradient_2: linear-gradient(270deg, #0E0F11, #000);
+
+  --box-shadow: 0px 0px 15px rgba(14, 15, 17, 0.05), 0px 1px 4px rgba(14, 15, 17, 0.06), 0px 30px 50px rgba(14, 15, 17, 0.06);
+}
+
+*::selection {
+  color: #fff;
+  background-color: var(--accent-1);
+}
+
+.navbar a.telegram i:hover,
+.navbar a.whatsapp i:hover,
+.navbar a.viber i:hover,
+.navbar a.vk i:hover {
+  transform: scale(1.2);
+}

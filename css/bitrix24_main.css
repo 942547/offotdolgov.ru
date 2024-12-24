@@ -1,0 +1,33 @@
+.quiz-card .b24-form-padding-side {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.quiz-card .b24-form-btn {
+    width: auto;
+    font: 500 17px / 26px Manrope;
+    padding: 17px 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.quiz-card .b24-form-btn:hover {
+    background-color: var(--accent-1_hover);
+    transform: scale(1.05);
+    color: #fff;
+}
+
+
+.quiz-card .b24-form-btn-block {
+    text-align: center;
+}
+
+
+/* Удаление натписи Битрикс24 */
+.quiz-card .b24-form-sign,
+.bx-livechat-box .bx-livechat-copyright {
+    display: none;
+}
+
+.quiz-card .b24-form-wrapper {
+    background-color: transparent;
+}

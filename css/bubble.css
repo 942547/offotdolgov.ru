@@ -1,0 +1,63 @@
+.bubble,
+.b24-form-btn {
+  cursor: pointer;
+  position: relative;
+  z-index: auto;
+}
+
+.bubbles,
+.bubbles2 {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: auto;
+}
+
+.bubbles {
+  animation: bubbles .5s ease-out;
+  border: solid 2px var(--accent-1);
+  width: 6px;
+  height: 6px;
+}
+
+.bubbles2 {
+  animation: bubbles2 .7s ease-out;
+  background: var(--accent-1);
+  width: 6px;
+  height: 6px;
+}
+
+@keyframes bubbles {
+  0% {
+    transform: translate(var(--translate-x1), var(--translate-y1));
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    border-width: 1px;
+    transform: translate(var(--translate-x2), var(--translate-y2)) scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes bubbles2 {
+  0% {
+    transform: translate(var(--translate-x1), var(--translate-y1));
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(var(--translate-x2), var(--translate-y2)) scale(.5);
+    opacity: 0;
+  }
+}
