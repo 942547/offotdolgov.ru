@@ -897,13 +897,13 @@
 .bg-radial-grad-spark,
 /*.remember-modal-confirm .modal-body{
 	border-radius: var(--border-radius_7);
-	background-image:url('./images/bg_gradient_spark.jpg');
+	background-image:url('../../images/bg_gradient_spark.jpg');
 	background-position-x: left;
 	background-repeat: no-repeat;
 }*/
 .remember-modal-confirm .modal-body {
 	border-radius: var(--border-radius_7);
-	background-image:url('./images/bfl-free.jpg');
+	background-image:url('../../images/bfl-free.jpg');
 	background-position-x: center;
 	background-repeat: no-repeat;
 	padding: 30px !important;
@@ -923,7 +923,7 @@
 }
 .bg-bfl-free {
 	border-radius: var(--border-radius_7);
-	background-image:url('./images/bfl-free.jpg');
+	background-image:url('../../images/bfl-free.jpg');
 	background-position-x: left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1796,7 +1796,7 @@
 .bg-gray-rounds{
 	border-radius: var(--border-radius_9);
 	background-color: rgba(18, 18, 18, 0.04);
-	background-image: url('./images/gray-rounds-bg.png');
+	background-image: url('../../images/gray-rounds-bg.png');
 	background-size: cover;
 	background-position: center -50px;
 	background-repeat: no-repeat;
@@ -3606,10 +3606,10 @@ ul.line-marker li:before{
 }
 
 .modal-messenger.whatsapp .modal-dialog .modal-content{
-	background-image:url('./images/modal-bg-whatsapp.png'); 
+	background-image:url('../../images/modal-bg-whatsapp.png'); 
 } 
 .modal-messenger.telegram .modal-dialog .modal-content{
-	background-image:url('./images/modal-bg-telegram.png');
+	background-image:url('../../images/modal-bg-telegram.png');
 }
 
 
@@ -3817,12 +3817,12 @@ ul.line-marker li:before{
 	height: 24px;
 }
 . btb-blue-2-1 {
-	background-image:url('./images/btn-figure.jpg');
+	background-image:url('../../images/btn-figure.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 }
 . btb-blue-2-2 {
-	background-image:url('./images/btn-figure2.jpg');
+	background-image:url('../../images/btn-figure2.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -3838,7 +3838,7 @@ ul.line-marker li:before{
 }
 
 .modal-phone-info:before{
-	background-image:url('./images/icon-phone-income.svg');
+	background-image:url('../../images/icon-phone-income.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color:#25D366;
@@ -4487,7 +4487,7 @@ ul.line-marker li:before{
 }
 
 .gift-modal .modal-content{
-	background-image:url('./images/mob-gift-bg.jpg');
+	background-image:url('../../images/mob-gift-bg.jpg');
 	background-position:top center;
 	background-repeat:no-repeat;
 	position: relative;
